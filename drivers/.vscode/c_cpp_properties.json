@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Linux Kernel ARM64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "//10.249.254.67/luban/LubanCat_SDK/kernel/include",
+                "//10.249.254.67/luban/LubanCat_SDK/kernel/include/uapi",
+                "//10.249.254.67/luban/LubanCat_SDK/kernel/include/generated/uapi",
+                "//10.249.254.67/luban/LubanCat_SDK/kernel/arch/arm64/include",
+                "//10.249.254.67/luban/LubanCat_SDK/kernel/arch/arm64/include/uapi",
+                "//10.249.254.67/luban/LubanCat_SDK/kernel/include/generated"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "//10.249.254.67/luban/LubanCat_SDK/kernel/include",
+                    "//10.249.254.67/luban/LubanCat_SDK/kernel/arch/arm64/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "defines": [
+                "__KERNEL__",
+                "MODULE",
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,1 @@
+cmd_/root/work/drivers/10.dts/Module.symvers :=  sed 's/ko$$/o/'  /root/work/drivers/10.dts/modules.order | scripts/mod/modpost       -o /root/work/drivers/10.dts/Module.symvers -e -i Module.symvers -T - 

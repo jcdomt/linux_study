@@ -1,0 +1,1 @@
+cmd_/home/wzj/work/drivers/hello/hello.ko := aarch64-none-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/wzj/work/drivers/hello/hello.ko /home/wzj/work/drivers/hello/hello.o /home/wzj/work/drivers/hello/hello.mod.o;  true

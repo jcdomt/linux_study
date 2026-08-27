@@ -1,0 +1,1 @@
+cmd_/root/work/drivers/13.irq/irq.ko := /root/LubanCat_SDK/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /root/work/drivers/13.irq/irq.ko /root/work/drivers/13.irq/irq.o /root/work/drivers/13.irq/irq.mod.o;  true

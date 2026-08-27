@@ -1,0 +1,6 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=/root/work/drivers/7.param"
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled"
+}

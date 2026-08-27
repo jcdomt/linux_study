@@ -1,0 +1,14 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-o",
+      "app.o",
+      "app.c"
+    ],
+    "directory": "/root/work/drivers/12.ioctl/user_app",
+    "file": "/root/work/drivers/12.ioctl/user_app/app.c",
+    "output": "/root/work/drivers/12.ioctl/user_app/app.o"
+  }
+]

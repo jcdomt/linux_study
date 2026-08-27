@@ -1,0 +1,1 @@
+cmd_/root/work/drivers/12.ioctl/Module.symvers :=  sed 's/ko$$/o/'  /root/work/drivers/12.ioctl/modules.order | scripts/mod/modpost       -o /root/work/drivers/12.ioctl/Module.symvers -e -i Module.symvers -T - 

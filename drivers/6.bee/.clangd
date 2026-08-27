@@ -1,0 +1,17 @@
+CompileFlags:
+  CompilationDatabase: .
+
+  Add:
+    - -D__KERNEL__
+    - -DMODULE
+
+    - -I\\10.249.254.67\luban\LubanCat_SDK\kernel\include
+    - -I\\10.249.254.67\luban\LubanCat_SDK\kernel\include\uapi
+    - -I\\10.249.254.67\luban\LubanCat_SDK\kernel\include\generated
+    - -I\\10.249.254.67\luban\LubanCat_SDK\kernel\arch\arm64\include
+    - -I\\10.249.254.67\luban\LubanCat_SDK\kernel\arch\arm64\include\uapi
+    - -I\\10.249.254.67\luban\LubanCat_SDK\kernel\arch\arm64\include\generated
+    - -I\\10.249.254.67\luban\LubanCat_SDK\kernel\include\asm-generic
+
+Index:
+  Background: Build

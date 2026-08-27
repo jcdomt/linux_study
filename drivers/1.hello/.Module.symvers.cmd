@@ -1,0 +1,1 @@
+cmd_/home/wzj/work/drivers/hello/Module.symvers :=  sed 's/ko$$/o/'  /home/wzj/work/drivers/hello/modules.order | scripts/mod/modpost       -o /home/wzj/work/drivers/hello/Module.symvers -e -i Module.symvers -T - 

@@ -1,0 +1,15 @@
+{
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--header-insertion=never"
+    ],
+
+    "C_Cpp.intelliSenseEngine": "disabled",
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true
+    }
+}

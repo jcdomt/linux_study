@@ -1,0 +1,1 @@
+cmd_/root/work/drivers/9.platform_device/driver/driver.mod := printf '%s\n'   driver.o | awk '!x[$$0]++ { print("/root/work/drivers/9.platform_device/driver/"$$0) }' > /root/work/drivers/9.platform_device/driver/driver.mod
