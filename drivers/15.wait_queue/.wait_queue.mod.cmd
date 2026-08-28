@@ -1,0 +1,1 @@
+cmd_/root/work/drivers/15.wait_queue/wait_queue.mod := printf '%s\n'   wait_queue.o | awk '!x[$$0]++ { print("/root/work/drivers/15.wait_queue/"$$0) }' > /root/work/drivers/15.wait_queue/wait_queue.mod
