@@ -1,0 +1,1 @@
+cmd_/root/work/drivers/18.shake/Module.symvers :=  sed 's/ko$$/o/'  /root/work/drivers/18.shake/modules.order | scripts/mod/modpost       -o /root/work/drivers/18.shake/Module.symvers -e -i Module.symvers -T - 
